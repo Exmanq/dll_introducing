@@ -31,10 +31,12 @@
 
 Ступень 1:
 Скачиваем dll-injector.cpp + dll.cpp и выполняем команды:
-
+```
 x86_64-w64-mingw32-gcc -o injector.exe dll-injector.cpp -static
-
+```
+```
 x86_64-w64-mingw32-gcc -shared -o hack.dll dll.cpp -static
+```
 
 Ступень 2:
 
