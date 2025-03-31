@@ -31,15 +31,8 @@ x86_64-w64-mingw32-gcc -shared -o hack.dll dll.cpp -static
 
 Ступень 2:
 
-┌──(exmanq㉿DESKTOP-BPGC5S5)-[~/hack_dll]
-└─$ ls -l
-total 340
--rw-r--r-- 1 exmanq exmanq    248 Mar 31 19:19 dll.cpp
--rw-r--r-- 1 exmanq exmanq   1125 Mar 31 19:19 dll-injector.cpp
--rwxr-xr-x 1 exmanq exmanq  87117 Mar 31 20:03 hack.dll
--rwxr-xr-x 1 exmanq exmanq 247262 Mar 31 19:36 injector.exe
-
 Теперь мы имеем 2 новых файла - hack.dll и injector.exe
+с помощью которых и будет происходить иньекция dll
 
 Ступень 3:
 
